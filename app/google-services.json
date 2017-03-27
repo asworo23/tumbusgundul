@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "759726444735",
+    "firebase_url": "https://tumbasin-872a2.firebaseio.com",
+    "project_id": "tumbasin-872a2",
+    "storage_bucket": "tumbasin-872a2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:759726444735:android:2069197b7d75b54b",
+        "android_client_info": {
+          "package_name": "com.app.tumbasin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "759726444735-lmpr5n9o3oq8jjjnrngu9ranp96dbk14.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.tumbasin",
+            "certificate_hash": "74263e30bc0dbfea7d3957ea59d329a34a7c887e"
+          }
+        },
+        {
+          "client_id": "759726444735-sp3jipj84m1bg938rraf97tpod9r6gf9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmzzOj6NJMtrj_zQ3liY2egasBrAh3Zt0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "759726444735-sp3jipj84m1bg938rraf97tpod9r6gf9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
