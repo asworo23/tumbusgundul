@@ -196,7 +196,7 @@
     <string name="content_delete_confirm">Are you sure want to delete all&#160;</string>
     <string name="delete_success">Delete successfully</string>
     <string name="msg_copied_clipboard">Text copied to clipboard</string>
-    <string name="failed">Failed</string>
+    <string name="failed">Gagal</string>
 
     <string name="OK">OK</string>
     <string name="GOT_IT">Mengerti</string>
