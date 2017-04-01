@@ -96,7 +96,7 @@ public class AdapterProduct extends RecyclerView.Adapter<RecyclerView.ViewHolder
             final Product p = items.get(position);
             OriginalViewHolder vItem = (OriginalViewHolder) holder;
             vItem.name.setText(p.name);
-            vItem.price.setText(p.price + " " + sharedPref.getInfoData().currency);
+            vItem.price.setText(sharedPref.getInfoData().currency + " " + p.price);
             Tools.displayImageOriginal(ctx, vItem.image, Constant.getURLimgProduct(p.image));
             vItem.lyt_parent.setOnClickListener(new View.OnClickListener() {
                 @Override

@@ -197,6 +197,10 @@ public class ActivityMain extends AppCompatActivity {
         Intent i;
         switch (id) {
             //sub menu
+            case R.id.nav_harga:
+                i = new Intent(this, ActivityHargaDisperindag.class);
+                startActivity(i);
+                break;
             case R.id.nav_cart:
                 i = new Intent(this, ActivityShoppingCart.class);
                 startActivity(i);

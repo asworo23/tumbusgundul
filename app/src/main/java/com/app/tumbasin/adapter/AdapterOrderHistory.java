@@ -70,7 +70,7 @@ public class AdapterOrderHistory extends RecyclerView.Adapter<RecyclerView.ViewH
             ViewHolder vItem = (ViewHolder) holder;
             final Order c = items.get(position);
             vItem.code.setText(c.code);
-            vItem.price.setText(c.total_fees + " " + sharedPref.getInfoData().currency);
+            vItem.price.setText(sharedPref.getInfoData().currency + " " + c.total_fees);
             vItem.date.setText(Tools.getFormattedDateSimple(c.created_at));
             vItem.lyt_parent.setOnClickListener(new View.OnClickListener() {
                 @Override

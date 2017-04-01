@@ -218,10 +218,10 @@ public class ActivityCheckout extends AppCompatActivity {
         _total_fees_str = String.format(Locale.US, "%1$,.2f", _total_fees);
 
         // set to display
-        total_order.setText(_total_order_str + " " + info.currency);
+        total_order.setText(info.currency + " " + _total_order_str);
         tax.setText(getString(R.string.tax) + info.tax + "%");
-        price_tax.setText(_price_tax_str + " " + info.currency);
-        total_fees.setText(_total_fees_str + " " + info.currency);
+        price_tax.setText(info.currency + " " + _price_tax_str);
+        total_fees.setText(info.currency + " " + _total_fees_str);
     }
 
 

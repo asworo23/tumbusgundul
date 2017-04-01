@@ -8,17 +8,23 @@
     android:fitsSystemWindows="false"
     android:theme="@style/ThemeOverlay.AppCompat.Dark">
 
-    <ImageView
+    <!--<ImageView
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_centerInParent="true"
         android:tint="@color/drawerHeaderIcon"
-        android:src="@drawable/main_logo" />
+        android:src="@drawable/main_logo" />-->
 
     <ImageView
         android:layout_width="match_parent"
-        android:src="@drawable/nav_header_bg"
+        android:src="@drawable/nav_bg_header"
         android:scaleType="centerCrop"
         android:layout_height="match_parent" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/main_logo" />
 
 </RelativeLayout>

@@ -138,7 +138,7 @@ public class ActivityShoppingCart extends AppCompatActivity {
             _price_total = _price_total + (c.amount * c.price_item);
         }
         _price_total_tax_str = String.format(Locale.US, "%1$,.2f", _price_total);
-        price_total.setText(" " + _price_total_tax_str + " " + info.currency);
+        price_total.setText(info.currency + " " + _price_total_tax_str + " " );
     }
 
     private void dialogCartAction(final Cart model) {

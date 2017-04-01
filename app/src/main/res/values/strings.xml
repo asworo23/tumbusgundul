@@ -1,11 +1,12 @@
 <resources>
     <string name="app_name">tumbas.in</string>
-    <string name="app_tag_line">Belanja di Pasar Jadi Lebih Mudah</string>
+    <string name="app_tag_line">Belanja di Pasar Tradisional\nJadi Lebih Mudah</string>
 
     <string name="title_about">Tentang</string>
     <string name="content_about">Tumbas.in merupakan sebuah aplikasi yang bertujuan untuk memudahkan Anda berbelanja di Pasar Tradisional. Tumbas.in dapat membantu masyarakat dalam membandingkan harga-harga khususnya kebutuhan bahan pokok dari Pasar satu ke Pasar yang lain.
         \n\nSelain itu tumbas.in akan memudahkan Ibu-Ibu untuk menyalurkan hoby memasaknya di rumah.</string>
 
+    <string name="title_activity_harga_disperindag">Harga Disperindag</string>
     <string name="title_activity_news_info">Promo Terbaru</string>
     <string name="title_activity_notifications">Notifikasi</string>
     <string name="title_activity_wishlist">Wishlist</string>
@@ -21,6 +22,7 @@
     <!--All data for ActivityMain.java -->
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="str_nav_harga">Harga Disperindag</string>
     <string name="str_nav_shopping_cart">Keranjang Belanja</string>
     <string name="str_nav_wishlist">Wishlist</string>
     <string name="str_nav_history">Riwayat Pemesanan</string>
@@ -31,7 +33,7 @@
     <string name="str_nav_setting">Pengaturan</string>
     <string name="str_nav_rate">Rating</string>
     <string name="str_nav_about">Tentang</string>
-    <string name="press_again_exit_app">Press again to exit</string>
+    <string name="press_again_exit_app">Tekan lagi untuk keluar</string>
 
     <string name="title_what_news">Harga Spesial</string>
     <string name="title_category">Kategori</string>
@@ -41,36 +43,36 @@
     <string name="title_menu_delete">Hapus</string>
 
     <!--All data for ActivityProductDetails.java -->
-    <string name="please_wait_text">Please wait until data loaded</string>
+    <string name="please_wait_text">Tunggu sampai data dimuat</string>
     <string name="categories_product">Kategori :&#160;</string>
-    <string name="cannot_add_wishlist">Tidak bisa menambahkan ke wishlist</string>
-    <string name="add_wishlist">Tambah ke wishlist</string>
-    <string name="remove_wishlist">Hapus dari wishlist</string>
-    <string name="add_cart">Tambah ke keranjang</string>
-    <string name="remove_cart">Hapus dari keranjang</string>
-    <string name="msg_out_of_stock">Ops, Produk habis</string>
-    <string name="msg_suspend">Ops, Produk di tangguhkan</string>
+    <string name="cannot_add_wishlist">Tidak bisa menambahkan ke Wishlist</string>
+    <string name="add_wishlist">Tambah ke Wishlist</string>
+    <string name="remove_wishlist">Hapus dari Wishlist</string>
+    <string name="add_cart">Tambah ke Keranjang</string>
+    <string name="remove_cart">Hapus dari Keranjang</string>
+    <string name="msg_out_of_stock">Ops, Produk Habis</string>
+    <string name="msg_suspend">Ops, Produk di Tangguhkan</string>
     <string name="out_of_stock">Habis</string>
-    <string name="suspend">SUSPEND</string>
-    <string name="ready_stock">READY STOCK</string>
-    <string name="bt_add_cart">ADD TO CART</string>
-    <string name="bt_remove_cart">REMOVE FROM CART</string>
+    <string name="suspend">Ditangguhkan</string>
+    <string name="ready_stock">Tersedia</string>
+    <string name="bt_add_cart">Tambah ke Keranjang</string>
+    <string name="bt_remove_cart">Hapus dari Keranjang</string>
 
     <!--All data for ActivitySplash.java -->
-    <string name="title_unable_connect">Unable connect to server</string>
-    <string name="msg_unable_connect">Server temporary down or under maintenance</string>
-    <string name="msg_app_out_date">Application is out of date, please update to get latest version</string>
-    <string name="msg_no_internet">Please check your Internet connection and try again</string>
-    <string name="title_info">Information</string>
-    <string name="title_no_internet">No Internet Connection</string>
+    <string name="title_unable_connect">Tidak terhubung ke server</string>
+    <string name="msg_unable_connect">Untuk sementara server masih dalam perbaikan</string>
+    <string name="msg_app_out_date">Perbarui aplikasi Anda, untuk mendapatkan versi terbaru</string>
+    <string name="msg_no_internet">Silakan periksa koneksi internet Anda dan coba lagi</string>
+    <string name="title_info">Informasi</string>
+    <string name="title_no_internet">Tidak ada koneksi internet</string>
 
     <!--All data for ActivityWishlist.java -->
-    <string name="msg_wishlist_empty">Wishlist is empty</string>
+    <string name="msg_wishlist_empty">Wishlist Kosong</string>
     <string name="title_menu_wishlist">Wishlist</string>
 
     <!--All data for ActivityShoppingCart.java -->
     <string name="msg_cart_empty">Keranjang Belanja Kosong</string>
-    <string name="before_tax">( Before tax )</string>
+    <string name="before_tax">( Belum Ongkos Kirim )</string>
     <string name="total">Total&#160;</string>
     <string name="stock">Stok : &#160;</string>
     <string name="QUANTITY">Jumlah</string>
@@ -78,79 +80,79 @@
     <string name="title_menu_checkout">Periksa Belanjaan</string>
 
     <!--All data for ActivitySearch.java -->
-    <string name="ALL">ALL</string>
-    <string name="Category">Category :&#160;</string>
-    <string name="hint_input_search">Search input</string>
-    <string name="please_fill">Please Fill Search Input</string>
+    <string name="ALL">SEMUA</string>
+    <string name="Category">Kategori :&#160;</string>
+    <string name="hint_input_search">Masukkan Pencarian</string>
+    <string name="please_fill">Silahkan Masukkan Isi Pencarian</string>
 
     <!--All data for ActivityOrderHistory.java -->
-    <string name="msg_history_empty">Order History is empty</string>
-    <string name="title_history_details">Order History Details</string>
+    <string name="msg_history_empty">Riwayat Pemesanan Kosong</string>
+    <string name="title_history_details">Rincian Riwayat Pemesanan</string>
 
     <!--All data for ActivityNotification.java -->
-    <string name="msg_notif_empty">Notification is empty</string>
+    <string name="msg_notif_empty">Notifikasi Kosong</string>
 
     <!--All data for ActivityCheckout.java -->
-    <string name="cost_details">Cost Details</string>
-    <string name="total_order">Total Order :&#160;</string>
-    <string name="tax">Tax&#160;</string>
-    <string name="total_fess">Total Fees :&#160;</string>
-    <string name="buyer_profile">Buyer Profile</string>
-    <string name="hint_name">Name</string>
+    <string name="cost_details">Rincian Biaya</string>
+    <string name="total_order">Total Pesanan :&#160;</string>
+    <string name="tax">Ongkos Kirim&#160;</string>
+    <string name="total_fess">Total Biaya :&#160;</string>
+    <string name="buyer_profile">Profil Pembeli</string>
+    <string name="hint_name">Nama</string>
     <string name="hint_email">Email</string>
-    <string name="hint_phone">Phone</string>
-    <string name="hint_address">Address</string>
-    <string name="hint_shipping">Shipping</string>
-    <string name="choose_shipping">Choose shipping</string>
-    <string name="hint_date_ship">Date Shipping</string>
-    <string name="hint_comment">Comment</string>
+    <string name="hint_phone">Telephone</string>
+    <string name="hint_address">Alamat</string>
+    <string name="hint_shipping">Pembayaran</string>
+    <string name="choose_shipping">Pilih Pembayaran</string>
+    <string name="hint_date_ship">Waktu Pengiriman</string>
+    <string name="hint_comment">Komentar/Tambahan belanja</string>
 
-    <string name="invalid_name">invalid name</string>
-    <string name="invalid_email">invalid email</string>
-    <string name="invalid_phone">invalid phone</string>
-    <string name="invalid_address">invalid address</string>
-    <string name="invalid_shipping">invalid shipping</string>
-    <string name="invalid_date_ship">invalid date shipping</string>
-    <string name="invalid_comment">invalid comment</string>
+    <string name="invalid_name">Masukkan Nama</string>
+    <string name="invalid_email">Email Salah</string>
+    <string name="invalid_phone">Masukkan Nomer Telephone</string>
+    <string name="invalid_address">Masukkan Alamat</string>
+    <string name="invalid_shipping">Pilih Pembayaran</string>
+    <string name="invalid_date_ship">Waktu Pengiriman Salah</string>
+    <string name="invalid_comment">Masukkan Komentar</string>
 
-    <string name="title_please_wait">Please Wait</string>
-    <string name="content_submit_checkout">Submit Checkout&#8230;</string>
-    <string name="confirmation">Confirmation</string>
-    <string name="confirm_checkout">Are you sure want to checkout this order?</string>
+    <string name="title_please_wait">Mohon Tunggu Sebentar</string>
+    <string name="content_submit_checkout">Memeriksa Pengiriman&#8230;</string>
+    <string name="confirmation">Konfirmasi</string>
+    <string name="confirm_checkout">Apakah Anda yakin ingin memeriksa pesanan ini?</string>
     <string name="failed_checkout">
-        Oops, Failed when checkout order
-        \n\nMake sure you have internet connection, or if you need help please Contact Us from menu Settings
+        Oops, Gagal saat memeriksa pesanan
+        \n\nPastikan Anda memiliki koneksi Internet, atau jika Anda memerlukan bantuan silahkan Hubungi Kami dari menu Pengaturan
     </string>
-    <string name="success_checkout">Congratulation</string>
+    <string name="success_checkout">Selamat</string>
     <string name="msg_success_checkout">
-        Successfully checkout order.\nYour order code : %1$s\n\nYour order will be review soon. When your order is ready, invoice detail will be sent to your email.
+        Pesanan berhasil diperiksa\nKode Pesanan Anda : %1$s\n\nPesanan Anda akan segera Kami tinjau. Ketika pesanan Anda siap, faktur rincian akan dikirim ke email Anda.
     </string>
-    <string name="process_checkout">PROCESS CHECKOUT</string>
+    <string name="process_checkout">PROSES PERIKSA</string>
 
     <!--All data ActivityNewsInfoDetails.java -->
-    <string name="featured">featured</string>
+    <string name="featured">Fitur</string>
 
     <!--All data for ActivityDialogNotification.java -->
-    <string name="title_notif_details">Notification Details</string>
-    <string name="title_notif">Notification</string>
+    <string name="title_notif_details">Detail Notifikasi</string>
+    <string name="title_notif">Notifikasi</string>
 
     <!--All data ActivityFullScreenImage.java -->
-    <string name="image_of">%1$d of %2$d</string>
+    <string name="image_of">%1$d dari %2$d</string>
 
     <!--All data related about page-->
     <!--Size three array below must be same -->
     <string-array name="about_title_array">
-        <item>WELCOME</item>
-        <item>DISCOVER PRODUCT</item>
-        <item>ADD TO CART</item>
-        <item>VERIFY AND RECEIVE</item>
+        <item>SELAMAT DATANG</item>
+        <item>TEMUKAN BELANJAAN</item>
+        <item>TAMBAH KE KERANJANG</item>
+        <item>VERIFIKASI DAN TERIMA</item>
     </string-array>
 
     <string-array name="about_description_array">
-        <item>Markeet is Premium Online Shopping\nPlatform for Everyone</item>
-        <item>Search Latest and Featured Product\nWith Best Price</item>
-        <item>Add to Cart All Product You need\nAnd Checkout the Order</item>
-        <item>We Will Verify Your Order\nPay the Bill and Receive the Product</item>
+        <item>Tumbasin merupakan Belanja Online\nKhusus untuk Pasar Tradisional</item>
+        <item>Cari Barang Terbaru dan Masih Segar\nDengan Harga yang Paling Murah</item>
+        <item>Tambahkan Semua Belanjaan Anda ke Keranjang\nDan Periksa Pesanan Anda</item>
+        <item>Kami Akan Verifikasi Pesanan Anda\nBayar di Tempat (COD)\nDan Terima Barang Belanjaan Anda</item>
     </string-array>
 
     <integer-array name="about_images_array">
@@ -163,7 +165,7 @@
     <!-- Activity Setting : xml/setting_preference.xml -->
     <string name="app_version">Versi</string>
     <string name="developer_email">admin@tumbas.in</string>
-    <string name="copyright">Copyright © 2016 Dream Space. \nAll right reserved</string>
+    <string name="copyright">Copyright © 2017 tumbasin. <!--\nAll right reserved--></string>
 
     <string name="pref_group_notif">NOTIFICATIONS</string>
     <string name="pref_group_others">OTHERS</string>
@@ -178,46 +180,43 @@
     <string name="grant_permission_storage">Grant storage permission to enable</string>
 
     <string name="content_term">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dolor risus, aliquet a erat quis, viverra molestie orci. Suspendisse vehicula porta libero. Nam tincidunt nulla ipsum, vel iaculis risus scelerisque sed. Phasellus venenatis, enim vel placerat blandit, leo eros bibendum erat, at auctor mauris diam ac risus. Aenean sit amet congue neque, sit amet condimentum elit. Fusce lacinia massa vel nisl scelerisque, in scelerisque dolor elementum. Vivamus leo enim, congue dictum congue vitae, porttitor id purus. Sed eu ultricies erat. Morbi hendrerit, mi ac volutpat commodo, magna turpis pretium nibh, at fringilla eros lorem quis tellus. Praesent porttitor purus nibh, ac vestibulum massa fringilla vel. Pellentesque dapibus nulla quis luctus dictum. In scelerisque ut ex sed facilisis. Nunc eu finibus nulla, ut hendrerit sem. Suspendisse accumsan risus vel diam fringilla iaculis.
-        \n\nQuisque facilisis finibus aliquam. Sed mattis, dui fringilla ornare finibus, orci odio blandit risus, ut maximus dui odio non leo. Donec laoreet lacus nisi, a mollis velit suscipit ac. Quisque faucibus ut nisl in congue. Nam sagittis consectetur tempus. Suspendisse eget posuere dui. Donec ultricies velit ex, vel cursus odio sollicitudin in. Nullam faucibus auctor ligula, eu rhoncus dui facilisis a. Curabitur vel feugiat est. Quisque congue at enim eleifend ultrices. Proin dapibus risus lorem, nec condimentum nunc consequat vitae. Quisque sapien lorem, vestibulum vitae justo eget, fringilla eleifend nisi.
-        \n\nMauris ultricies augue sit amet est sollicitudin laoreet. Fusce ut congue felis. Fusce dictum tristique elit nec iaculis. Mauris sodales tempus fringilla. Fusce nec nunc tempus, tempor sapien sit amet, ultricies erat. Mauris ultrices ac lorem ultrices facilisis. Nam pharetra, nisi a imperdiet interdum, nunc justo ultricies nisl, a laoreet massa dui vel enim. Pellentesque et magna ac tellus ullamcorper malesuada a ac nisl. Curabitur id est et neque convallis accumsan. Aliquam eleifend varius massa. Curabitur eu finibus tortor.
-        \n\nVivamus aliquam nisl rutrum orci volutpat porta in ornare est. Quisque ligula ipsum, vulputate id aliquam vitae, semper vitae orci. Nam non pulvinar ligula, eget tincidunt ante. Quisque sapien massa, varius tempus pretium id, vehicula at magna. Ut ut ultrices augue. Nam nec ullamcorper tellus, at finibus lectus. Fusce vel iaculis mauris, id porta nulla. Aenean ac mollis sapien. Morbi imperdiet augue tempus nulla luctus, sit amet feugiat purus elementum.
+        MAAF\nUntuk Sementara Masih Dibuat.
     </string>
     <string name="version_unknown">Unknown</string>
 
 
     <!-- Other String -->
-    <string name="failed_text">Failed When Load Data</string>
-    <string name="no_internet_text">No Internet Connection</string>
-    <string name="no_item">No Item</string>
-    <string name="msg_data_loaded">Data loaded</string>
-    <string name="msg_failed_load_data">Failed when load data</string>
-    <string name="title_delete_confirm">Delete Confirmation</string>
-    <string name="content_delete_confirm">Are you sure want to delete all&#160;</string>
-    <string name="delete_success">Delete successfully</string>
-    <string name="msg_copied_clipboard">Text copied to clipboard</string>
+    <string name="failed_text">Gagal Memuat Data</string>
+    <string name="no_internet_text">Tidak Ada Koneksi Internet</string>
+    <string name="no_item">Tidak Ada Item Belanjaan</string>
+    <string name="msg_data_loaded">Data Sedang Dimuat</string>
+    <string name="msg_failed_load_data">Gagal Ketika Memuat Data</string>
+    <string name="title_delete_confirm">Konfirmasi Penghapusan</string>
+    <string name="content_delete_confirm">Apakah Kamu yakin ingin menghapus semua&#160;</string>
+    <string name="delete_success">Berhasil Menghapus</string>
+    <string name="msg_copied_clipboard">Teks disalin ke clipboard</string>
     <string name="failed">Gagal</string>
 
     <string name="OK">OK</string>
-    <string name="GOT_IT">Mengerti</string>
-    <string name="YES">YES</string>
-    <string name="NO">NO</string>
-    <string name="SETTING">SETTING</string>
-    <string name="CANCEL">CANCEL</string>
-    <string name="CLOSE">CLOSE</string>
-    <string name="UPDATE">UPDATE</string>
-    <string name="DISMISS">DISMISS</string>
-    <string name="HIDE">HIDE</string>
-    <string name="RETRY">RETRY</string>
-    <string name="TRY_AGAIN">TRY AGAIN</string>
-    <string name="DETAILS">DETAILS</string>
-    <string name="FAILED">FAILED</string>
-    <string name="TYPE_SEARCH">SEARCH</string>
-    <string name="NO_IMAGE">NO IMAGE</string>
-    <string name="DELETE">DELETE</string>
-    <string name="OPEN">OPEN</string>
-    <string name="SAVE">SAVE</string>
-    <string name="NEXT">Lanjut</string>
-    <string name="SKIP">Lewati</string>
+    <string name="GOT_IT">MENGERTI</string>
+    <string name="YES">YA</string>
+    <string name="NO">TIDAK</string>
+    <string name="SETTING">PENGATURAN</string>
+    <string name="CANCEL">BATAL</string>
+    <string name="CLOSE">TUTUP</string>
+    <string name="UPDATE">PERBARUI</string>
+    <string name="DISMISS">BERHENTI</string>
+    <string name="HIDE">SEMBUNYIKAN</string>
+    <string name="RETRY">ULANGI</string>
+    <string name="TRY_AGAIN">COBA LAGI</string>
+    <string name="DETAILS">DETAIL</string>
+    <string name="FAILED">GAGAL</string>
+    <string name="TYPE_SEARCH">PENCARIAN</string>
+    <string name="NO_IMAGE">TIDAK ADA GAMBAR</string>
+    <string name="DELETE">HAPUS</string>
+    <string name="OPEN">BUKA</string>
+    <string name="SAVE">SIMPAN</string>
+    <string name="NEXT">LANJUT</string>
+    <string name="SKIP">LEWATI</string>
 
 </resources>
