@@ -26,6 +26,7 @@ import com.app.tumbasin.data.SharedPref;
 import com.app.tumbasin.model.Cart;
 import com.app.tumbasin.model.Info;
 import com.app.tumbasin.utils.Tools;
+import com.balysv.materialripple.MaterialRippleLayout;
 
 import java.util.List;
 import java.util.Locale;
@@ -39,6 +40,7 @@ public class ActivityShoppingCart extends AppCompatActivity {
     private TextView price_total;
     private SharedPref sharedPref;
     private Info info;
+    private MaterialRippleLayout lyt_buy;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -57,6 +59,19 @@ public class ActivityShoppingCart extends AppCompatActivity {
         recyclerView = (RecyclerView) findViewById(R.id.recyclerView);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         price_total = (TextView) findViewById(R.id.price_total);
+        lyt_buy = (MaterialRippleLayout) findViewById(R.id.lyt_buy);
+
+        lyt_buy.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if (adapter.getItemCount() > 0) {
+                    Intent intent = new Intent(ActivityShoppingCart.this, ActivityCheckout.class);
+                    startActivity(intent);
+                } else {
+                    Snackbar.make(parent_view, R.string.msg_cart_empty, Snackbar.LENGTH_SHORT).show();
+                }
+            }
+        });
     }
 
     private void initToolbar() {

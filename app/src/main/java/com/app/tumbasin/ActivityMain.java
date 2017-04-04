@@ -197,10 +197,6 @@ public class ActivityMain extends AppCompatActivity {
         Intent i;
         switch (id) {
             //sub menu
-            case R.id.nav_harga:
-                i = new Intent(this, ActivityHargaDisperindag.class);
-                startActivity(i);
-                break;
             case R.id.nav_cart:
                 i = new Intent(this, ActivityShoppingCart.class);
                 startActivity(i);
@@ -356,6 +352,7 @@ public class ActivityMain extends AppCompatActivity {
 
     private void updateNavCounter(NavigationView nav) {
         Menu menu = nav.getMenu();
+
         // update cart counter
         int cart_count = db.getActiveCartSize();
         ((TextView) menu.findItem(R.id.nav_cart).getActionView().findViewById(R.id.counter)).setText(String.valueOf(cart_count));

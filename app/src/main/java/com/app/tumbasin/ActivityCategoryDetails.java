@@ -90,7 +90,9 @@ public class ActivityCategoryDetails extends AppCompatActivity {
         mAdapter.setOnItemClickListener(new AdapterProduct.OnItemClickListener() {
             @Override
             public void onItemClick(View v, Product obj, int position) {
+                //ActivityProductDetails.navigate(ActivityCategoryDetails.this, obj.id, false);
                 ActivityProductDetails.navigate(ActivityCategoryDetails.this, obj.id, false);
+
             }
         });
 

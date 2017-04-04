@@ -29,7 +29,7 @@
     <string name="str_nav_news">Promo Terbaru</string>
     <string name="str_nav_notifications">Notifikasi</string>
     <string name="sub_title_nav_others">Lainnya</string>
-    <string name="str_nav_instruction">Intruksi</string>
+    <string name="str_nav_instruction">Cara Penggunaan</string>
     <string name="str_nav_setting">Pengaturan</string>
     <string name="str_nav_rate">Rating</string>
     <string name="str_nav_about">Tentang</string>
@@ -56,6 +56,7 @@
     <string name="suspend">Ditangguhkan</string>
     <string name="ready_stock">Tersedia</string>
     <string name="bt_add_cart">Tambah ke Keranjang</string>
+    <string name="bt_buy">Lanjutkan Pembelian</string>
     <string name="bt_remove_cart">Hapus dari Keranjang</string>
 
     <!--All data for ActivitySplash.java -->

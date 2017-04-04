@@ -3,11 +3,6 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <group android:checkableBehavior="single">
-        <item
-            android:id="@+id/nav_harga"
-            android:icon="@drawable/ic_pricetag"
-            android:title="@string/str_nav_harga"
-            app:actionLayout="@layout/menu_counter_plain_" />
 
         <item
             android:id="@+id/nav_cart"
