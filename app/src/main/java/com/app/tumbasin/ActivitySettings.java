@@ -80,7 +80,7 @@ public class ActivitySettings extends PreferenceActivity {
                 ClipboardManager clipboard = (ClipboardManager) getSystemService(Context.CLIPBOARD_SERVICE);
                 ClipData clip = ClipData.newPlainText(getString(R.string.pref_title_contact_us), getString(R.string.developer_email));
                 clipboard.setPrimaryClip(clip);
-                Snackbar.make(parent_view, "Email Copied to Clipboard", Snackbar.LENGTH_SHORT).show();
+                Snackbar.make(parent_view, "Nomer Telephone sudah disalin", Snackbar.LENGTH_SHORT).show();
                 return false;
             }
         });

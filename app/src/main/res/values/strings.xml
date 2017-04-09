@@ -126,7 +126,8 @@
     </string>
     <string name="success_checkout">Selamat</string>
     <string name="msg_success_checkout">
-        Pesanan berhasil diperiksa\nKode Pesanan Anda : %1$s\n\nPesanan Anda akan segera Kami tinjau. Ketika pesanan Anda siap, faktur rincian akan dikirim ke email Anda.
+        <!--Pesanan berhasil diperiksa\nKode Pesanan Anda : %1$s\n\nPesanan Anda akan segera Kami tinjau. Ketika pesanan Anda siap, faktur rincian akan dikirim ke email Anda.-->
+        Pesanan berhasil diperiksa\nKode Pesanan Anda : %1$s\n\nPesanan Anda akan segera Kami proses.\nHarap hubungi admin Kami jika sewaktu-waktu Anda membutuhkan bantuan, di nomer:\n082242861268
     </string>
     <string name="process_checkout">PROSES PERIKSA</string>
 
@@ -165,7 +166,7 @@
 
     <!-- Activity Setting : xml/setting_preference.xml -->
     <string name="app_version">Versi</string>
-    <string name="developer_email">admin@tumbas.in</string>
+    <string name="developer_email">082242861268</string>
     <string name="copyright">Copyright © 2017 tumbasin. <!--\nAll right reserved--></string>
 
     <string name="pref_group_notif">NOTIFICATIONS</string>

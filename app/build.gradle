@@ -50,6 +50,10 @@ dependencies {
 
     compile 'com.google.firebase:firebase-core:10.0.1'
 
+    // mix panel analytic
+    //compile "com.mixpanel.android:mixpanel-android:4.+"
+    //compile "com.google.android.gms:play-services:10.0.1+"
+
 }
 
 apply plugin: 'com.google.gms.google-services'
