@@ -91,7 +91,6 @@
                 android:layout_height="wrap_content"
                 android:text="  +"
                 android:textColor="@color/grey_20" />
-
         </LinearLayout>
 
         <LinearLayout
@@ -118,8 +117,26 @@
                 android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
                 android:textColor="@color/colorPrice"
                 android:textStyle="bold" />
-
         </LinearLayout>
+
+        <!--<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:minHeight="@dimen/spacing_mxlarge"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/note_book"
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                android:textSize="@dimen/spacing_middle12"
+                android:textColor="@color/colorWarning"
+                android:textStyle="italic" />
+
+        </LinearLayout>-->
 
     </LinearLayout>
 

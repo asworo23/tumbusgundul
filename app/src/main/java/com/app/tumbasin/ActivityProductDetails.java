@@ -225,8 +225,9 @@ public class ActivityProductDetails extends AppCompatActivity {
             }
         });
 
-        ((TextView) findViewById(R.id.date)).setText(Tools.getFormattedDate(product.last_update));
-        ((TextView) findViewById(R.id.price)).setText(sharedPref.getInfoData().currency + " " + product.price );
+        //((TextView) findViewById(R.id.date)).setText(Tools.getFormattedDate(product.last_update));
+        String price_str = String.format(Locale.JAPAN, "%1$,.2f", product.price);
+        ((TextView) findViewById(R.id.price)).setText(sharedPref.getInfoData().currency + " " + price_str );
         if (product.status.equalsIgnoreCase("READY STOCK")) {
             ((TextView) findViewById(R.id.status)).setText(getString(R.string.ready_stock));
         } else if (product.status.equalsIgnoreCase("OUT OF STOCK")) {

@@ -42,6 +42,5 @@
             android:padding="@dimen/spacing_large"
             android:src="@drawable/intro_img_1" />
 
-
     </LinearLayout>
 </RelativeLayout>

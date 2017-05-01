@@ -24,7 +24,7 @@
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title"
             android:textColor="@color/grey_60" />
 
-        <TextView
+        <!--<TextView
             android:id="@+id/viewall"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
@@ -43,7 +43,7 @@
             android:layout_marginRight="@dimen/spacing_middle"
             android:layout_marginTop="@dimen/spacing_large"
             android:src="@drawable/ic_arrow_right"
-            android:tint="@color/colorPrimaryLight"/>
+            android:tint="@color/colorPrimaryLight"/>-->
 
     </LinearLayout>
     <!--<TextView

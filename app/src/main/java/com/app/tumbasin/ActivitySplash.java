@@ -74,7 +74,7 @@ public class ActivitySplash extends AppCompatActivity {
                 finish(); // kill current activity
             }
         };
-        new Timer().schedule(task, 4000);
+        new Timer().schedule(task, 2000);
     }
 
     private void requestInfo() {

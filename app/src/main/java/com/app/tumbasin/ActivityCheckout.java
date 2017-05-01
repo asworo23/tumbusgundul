@@ -220,7 +220,8 @@ public class ActivityCheckout extends AppCompatActivity {
 
         // set to display
         total_order.setText(info.currency + " " + _total_order_str);
-        tax.setText(getString(R.string.tax) + info.tax + "%");
+        //tax.setText(getString(R.string.tax) + info.tax + "%");
+        tax.setText(getString(R.string.tax));
         price_tax.setText(info.currency + " " + _price_tax_str);
         total_fees.setText(info.currency + " " + _total_fees_str);
     }

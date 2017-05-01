@@ -96,7 +96,7 @@
             android:paddingRight="@dimen/spacing_middle"
             android:visibility="visible">
 
-            <ImageView
+            <!--<ImageView
                 android:id="@+id/imageView"
                 android:layout_width="@dimen/spacing_large"
                 android:layout_height="@dimen/spacing_large"
@@ -109,7 +109,16 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/spacing_medium"
                 android:layout_marginRight="@dimen/spacing_medium"
-                android:text="-"
+                android:text="0"
+                android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                android:textColor="@color/grey_40" />-->
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/spacing_medium"
+                android:layout_marginRight="@dimen/spacing_medium"
+                android:text=" "
                 android:textAppearance="@style/TextAppearance.AppCompat.Caption"
                 android:textColor="@color/grey_40" />
 

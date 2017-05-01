@@ -98,8 +98,9 @@
     <!--All data for ActivityCheckout.java -->
     <string name="cost_details">Rincian Biaya</string>
     <string name="total_order">Total Pesanan :&#160;</string>
-    <string name="tax">Ongkos Kirim&#160;</string>
+    <string name="tax">Ongkos Kirim :&#160;</string>
     <string name="total_fess">Total Biaya :&#160;</string>
+    <string name="note_book">NB: Bayar ongkir Rp 0,- dengan memposting belanjaan tumbasmu menggunakan #tumbasin #belanjadipasarsemarang</string>
     <string name="buyer_profile">Profil Pembeli</string>
     <string name="hint_name">Nama</string>
     <string name="hint_email">Email</string>
@@ -129,7 +130,7 @@
     <string name="success_checkout">Selamat</string>
     <string name="msg_success_checkout">
         <!--Pesanan berhasil diperiksa\nKode Pesanan Anda : %1$s\n\nPesanan Anda akan segera Kami tinjau. Ketika pesanan Anda siap, faktur rincian akan dikirim ke email Anda.-->
-        Pesanan berhasil diperiksa\nKode Pesanan Anda : %1$s\n\nPesanan Anda akan segera Kami proses.\nHarap hubungi admin Kami jika sewaktu-waktu Anda membutuhkan bantuan, di nomer:\n082242861268
+        Pesanan berhasil diperiksa\nKode Pesanan Anda : %1$s\nPesanan Anda akan segera Kami proses.\n\nHarap hubungi admin Kami jika sewaktu-waktu Anda membutuhkan bantuan, di nomer:\n082242861268
     </string>
     <string name="process_checkout">PROSES PERIKSA</string>
 
@@ -146,7 +147,7 @@
     <!--All data related about page-->
     <!--Size three array below must be same -->
     <string-array name="about_title_array">
-        <item>BELANJA DI PASAR</item>
+        <item>BELANJA DI PASAR TRADISIONAL</item>
         <item>TEMUKAN BELANJAAN</item>
         <item>TAMBAH KE KERANJANG</item>
         <item>VERIFIKASI DAN TERIMA</item>
@@ -154,13 +155,13 @@
 
     <string-array name="about_description_array">
         <item>Dimulai dari Tumbas in</item>
-        <item>Cari Barang Terbaru dan Masih Segar\nDengan Harga yang Paling Murah</item>
+        <item>Cari Barang Terbaru dan Masih Segar\nDengan Harga Sesuai Pasar Tradisional</item>
         <item>Tambahkan Semua Belanjaan Anda ke Keranjang\nDan Periksa Pesanan Anda</item>
         <item>Kami Akan Verifikasi Pesanan Anda\nBayar di Tempat (COD)\nDan Terima Barang Belanjaan Anda</item>
     </string-array>
 
     <integer-array name="about_images_array">
-        <item>@drawable/splash_1</item>
+        <item>@drawable/intro_img_1</item>
         <item>@drawable/intro_img_2</item>
         <item>@drawable/intro_img_3</item>
         <item>@drawable/intro_img_4</item>
