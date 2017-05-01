@@ -19,6 +19,7 @@ import com.balysv.materialripple.MaterialRippleLayout;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Locale;
 
 public class AdapterProduct extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 
@@ -96,7 +97,8 @@ public class AdapterProduct extends RecyclerView.Adapter<RecyclerView.ViewHolder
             final Product p = items.get(position);
             OriginalViewHolder vItem = (OriginalViewHolder) holder;
             vItem.name.setText(p.name);
-            vItem.price.setText(sharedPref.getInfoData().currency + " " + p.price);
+            String price_str = String.format(Locale.JAPAN, "%1$,.2f", p.price);
+            vItem.price.setText(sharedPref.getInfoData().currency + " " + price_str);
             Tools.displayImageOriginal(ctx, vItem.image, Constant.getURLimgProduct(p.image));
             vItem.lyt_parent.setOnClickListener(new View.OnClickListener() {
                 @Override

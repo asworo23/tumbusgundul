@@ -35,8 +35,10 @@
     <string name="str_nav_about">Tentang</string>
     <string name="press_again_exit_app">Tekan lagi untuk keluar</string>
 
-    <string name="title_what_news">Harga Spesial</string>
+    <string name="title_what_news">Konten Promo</string>
     <string name="title_category">Kategori</string>
+    <string name="title_viewall">Lihat Semua</string>
+    <string name="title_next">></string>
 
     <!--All data for ActivityCategoryDetails.java -->
     <string name="title_menu_search">Cari</string>
@@ -144,21 +146,21 @@
     <!--All data related about page-->
     <!--Size three array below must be same -->
     <string-array name="about_title_array">
-        <item>SELAMAT DATANG</item>
+        <item>BELANJA DI PASAR</item>
         <item>TEMUKAN BELANJAAN</item>
         <item>TAMBAH KE KERANJANG</item>
         <item>VERIFIKASI DAN TERIMA</item>
     </string-array>
 
     <string-array name="about_description_array">
-        <item>Tumbasin merupakan Belanja Online\nKhusus untuk Pasar Tradisional</item>
+        <item>Dimulai dari Tumbas in</item>
         <item>Cari Barang Terbaru dan Masih Segar\nDengan Harga yang Paling Murah</item>
         <item>Tambahkan Semua Belanjaan Anda ke Keranjang\nDan Periksa Pesanan Anda</item>
         <item>Kami Akan Verifikasi Pesanan Anda\nBayar di Tempat (COD)\nDan Terima Barang Belanjaan Anda</item>
     </string-array>
 
     <integer-array name="about_images_array">
-        <item>@drawable/intro_img_1</item>
+        <item>@drawable/splash_1</item>
         <item>@drawable/intro_img_2</item>
         <item>@drawable/intro_img_3</item>
         <item>@drawable/intro_img_4</item>

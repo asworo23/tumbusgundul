@@ -211,7 +211,8 @@ public class ActivityCheckout extends AppCompatActivity {
         for (Cart c : items) {
             _total_order = _total_order + (c.amount * c.price_item);
         }
-        _price_tax = _total_order * info.tax / 100;
+        //_price_tax = _total_order * info.tax / 100;
+        _price_tax = 100000 * info.tax / 100;
         _total_fees = _total_order + _price_tax;
         _price_tax_str = String.format(Locale.US, "%1$,.2f", _price_tax);
         _total_order_str = String.format(Locale.US, "%1$,.2f", _total_order);

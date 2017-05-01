@@ -118,6 +118,11 @@ public class ActivityMain extends AppCompatActivity {
         // init fragment slider new product
         FragmentFeaturedNews fragmentFeaturedNews = new FragmentFeaturedNews();
         fragmentTransaction.replace(R.id.frame_content_new_product, fragmentFeaturedNews);
+
+        // init fragment category sayur
+        //FragmentCategorySayur fragmentCategorySayur = new FragmentCategorySayur();
+        //fragmentTransaction.replace(R.id.frame_content_category_sayur, fragmentCategorySayur);
+
         // init fragment category
         FragmentCategory fragmentCategory = new FragmentCategory();
         fragmentTransaction.replace(R.id.frame_content_category, fragmentCategory);

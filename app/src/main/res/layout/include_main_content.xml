@@ -50,6 +50,12 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" />
 
+                <!--new product slider sayur-->
+                <FrameLayout
+                    android:id="@+id/frame_content_category_sayur"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
                 <!--new product slider-->
                 <FrameLayout
                     android:id="@+id/frame_content_category"

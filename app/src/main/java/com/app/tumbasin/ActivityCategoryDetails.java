@@ -87,12 +87,17 @@ public class ActivityCategoryDetails extends AppCompatActivity {
         recyclerView.setAdapter(mAdapter);
 
         // on item list clicked
+        //mAdapter.setOnItemClickListener(new AdapterProduct.OnItemClickListener() {
+            //@Override
+            //public void onItemClick(View v, Product obj, int position) {
+                //ActivityProductDetails.navigate(ActivityCategoryDetails.this, obj.id, false);
+            //}
+        //});
+
         mAdapter.setOnItemClickListener(new AdapterProduct.OnItemClickListener() {
             @Override
             public void onItemClick(View v, Product obj, int position) {
-                //ActivityProductDetails.navigate(ActivityCategoryDetails.this, obj.id, false);
                 ActivityProductDetails.navigate(ActivityCategoryDetails.this, obj.id, false);
-
             }
         });
 

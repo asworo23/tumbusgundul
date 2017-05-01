@@ -50,13 +50,13 @@
                 android:text="@string/QUANTITY"
                 android:textAppearance="@style/TextAppearance.AppCompat.Caption" />
 
-            <TextView
+            <!--<TextView
                 android:id="@+id/stock"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:text="Stock : 5"
                 android:textAppearance="@style/TextAppearance.AppCompat.Caption"
-                android:textStyle="bold" />
+                android:textStyle="bold" />-->
 
         </LinearLayout>
 

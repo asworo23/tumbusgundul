@@ -226,7 +226,7 @@ public class ActivityProductDetails extends AppCompatActivity {
         });
 
         ((TextView) findViewById(R.id.date)).setText(Tools.getFormattedDate(product.last_update));
-        ((TextView) findViewById(R.id.price)).setText(sharedPref.getInfoData().currency + " " + product.price + " ");
+        ((TextView) findViewById(R.id.price)).setText(sharedPref.getInfoData().currency + " " + product.price );
         if (product.status.equalsIgnoreCase("READY STOCK")) {
             ((TextView) findViewById(R.id.status)).setText(getString(R.string.ready_stock));
         } else if (product.status.equalsIgnoreCase("OUT OF STOCK")) {

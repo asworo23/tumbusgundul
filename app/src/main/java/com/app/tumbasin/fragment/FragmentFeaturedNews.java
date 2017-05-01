@@ -159,10 +159,10 @@ public class FragmentFeaturedNews extends Fragment {
                 pos = pos + 1;
                 if (pos >= count) pos = 0;
                 viewPager.setCurrentItem(pos);
-                handler.postDelayed(runnableCode, 3000);
+                handler.postDelayed(runnableCode, 5000);
             }
         };
-        handler.postDelayed(runnableCode, 3000);
+        handler.postDelayed(runnableCode, 5000);
     }
 
     private void prevAction() {

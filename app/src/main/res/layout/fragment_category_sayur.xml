@@ -3,7 +3,6 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical">
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -30,20 +29,11 @@
             android:layout_height="match_parent"
             android:layout_marginBottom="@dimen/spacing_medium"
             android:layout_marginLeft="@dimen/spacing_middle"
+            android:layout_marginRight="@dimen/spacing_middle"
             android:layout_marginTop="@dimen/spacing_large"
             android:text="@string/title_viewall"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Title"
             android:textColor="@color/colorPrimaryLight"/>
-
-        <ImageView
-            android:id="@+id/img_right"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/spacing_small"
-            android:layout_marginRight="@dimen/spacing_middle"
-            android:layout_marginTop="@dimen/spacing_large"
-            android:src="@drawable/ic_arrow_right"
-            android:tint="@color/colorPrimaryLight"/>
 
     </LinearLayout>
     <!--<TextView
@@ -67,7 +57,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="@dimen/spacing_medium"
-            android:scrollbars="vertical"
+            android:scrollbars="horizontal"
             android:scrollingCache="true" />
 
     </RelativeLayout>

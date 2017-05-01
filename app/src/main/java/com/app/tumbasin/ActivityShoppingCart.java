@@ -167,7 +167,7 @@ public class ActivityShoppingCart extends AppCompatActivity {
         lp.width = WindowManager.LayoutParams.MATCH_PARENT;
         lp.height = WindowManager.LayoutParams.WRAP_CONTENT;
         ((TextView) dialog.findViewById(R.id.title)).setText(model.product_name);
-        ((TextView) dialog.findViewById(R.id.stock)).setText(getString(R.string.stock) + model.stock);
+        //((TextView) dialog.findViewById(R.id.stock)).setText(getString(R.string.stock) + model.stock);
         final TextView qty = (TextView) dialog.findViewById(R.id.quantity);
         qty.setText(model.amount + "");
 
